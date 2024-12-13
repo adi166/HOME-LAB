@@ -102,10 +102,9 @@ This project is perfect for beginners who want to start their journey in cyberse
 
 ![image](https://github.com/user-attachments/assets/b1202dcf-c76f-44f7-92ad-5df8c31cbb8b)
 
-
-
-
-
+6. Configure Lab Network
+- NOTE:- Same Steps can be followed for both the VirtualBox
+- Open Virtual Box and go to your Windows VM settings -> 
 
 
 
