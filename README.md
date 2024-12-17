@@ -104,7 +104,28 @@ This project is perfect for beginners who want to start their journey in cyberse
 
 6. Configure Lab Network
 - NOTE:- Same Steps can be followed for both the VirtualBox
-- Open Virtual Box and go to your Windows VM settings -> 
+- Open Virtual Box and go to Tools settings -> click on Network tab -> select NAT Network and create a new Network -> assign a name and configure the IPv4 address.
+
+  ![image](https://github.com/user-attachments/assets/ec6ac9f8-08b2-4dba-9c63-efd4bfd257b7)
+
+- Open Windows VM settings -> f=select Network tab -> select NAT Network -> select Project Network -> Click on OK.
+- Same ac be followed for Kali VM.
+
+7. Verify our Connection
+- Lets start up both our VM (Windows and kali).
+- In Kali VM lets check out network using ifconfig command.
+
+![image](https://github.com/user-attachments/assets/33e53d4d-d7d2-43d2-bfe1-a4f43c2aae47)
+
+- In Windows VM check our network using ipconfig.
+
+![image](https://github.com/user-attachments/assets/3c5428c8-482b-41e1-8f01-207f26064af6)
+
+- To verify both VMs are on the same network and can communicate, ping the IP address of your Kali VM from the other VM.
+
+
+
+
 
 
 
